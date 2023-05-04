@@ -1,8 +1,8 @@
 # Job-Knock-Software-Engineer
 
-1. Introduce Github
-  - Registration
+1. สอน Basic Skill on CodeSandbox
+2. Simulate Raven project
+3. Introduce Github
   - Create First Repositoty
-  - 
-2. สอน Basic Skill
-3. Clone & Start implement project
+  - Deploy on Github
+4. Clone & Start implement project
