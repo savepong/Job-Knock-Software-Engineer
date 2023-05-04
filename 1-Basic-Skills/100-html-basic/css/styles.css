@@ -1,0 +1,19 @@
+body {
+  background-color: powderblue;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: black;
+  border: 5px solid yellow;
+  padding: 20px; /** ระยะห่างภายใน **/
+  margin: 100px; /** ระยะห่างข้างนอก **/
+}
+
+.save {
+  color: red;
+}
