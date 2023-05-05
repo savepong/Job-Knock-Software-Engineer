@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/form.css">
+  </head>
+  <body>
+    <h2>Who Am I?</h2>
+
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" placeholder="John" /><br />
+
+      <br/>
+
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" placeholder="Doe" />
+
+      <hr />
+
+      <h3>My Role:</h3>
+      <input type="radio" id="role_student" name="role" value="student" />
+      <label for="role_student">Student</label>
+      
+      <br />
+
+      <input type="radio" id="role_teacher" name="role" value="teacher" />
+      <label for="role_teacher">Teacher</label>
+      
+      <hr />
+
+      <h3>My Favorite Languages:</h3>
+      <input type="checkbox" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label>
+
+      <br />
+      <input type="checkbox" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label>
+
+      <br />
+
+      <input
+        type="checkbox"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+
+      <hr />
+      
+      <button onclick="cancel()" type="button">Cancel</button>
+      <button onclick="confirm()" type="button">Confirm</button>
+    </form>
+
+    <script type="text/javascript" src="javascripts/form.js"></script>
+  </body>
+</html>
